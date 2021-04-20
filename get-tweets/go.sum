@@ -1,0 +1,4 @@
+github.com/google/go-cmp v0.5.4/go.mod h1:v8dTdLbMG2kIc/vJvl+f65V22dbkXbowE6jgT/gNBxE=
+github.com/n0madic/twitter-scraper v0.0.0-20210331121551-b23ecad9c6ed h1:oZ2xH8WH0a9wd2CQNJr/ptwGX/TYrXxnYwYNcNQ/XMY=
+github.com/n0madic/twitter-scraper v0.0.0-20210331121551-b23ecad9c6ed/go.mod h1:uzFP7WK9gCykBnULzfmxScXgIbs+423tWjbHRLYVq/g=
+golang.org/x/xerrors v0.0.0-20191204190536-9bdfabe68543/go.mod h1:I/5z698sn9Ka8TeJc9MKroUUfqBBauWjQqLJ2OPfmY0=
