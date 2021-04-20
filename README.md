@@ -6,11 +6,14 @@
 Contains the Go code and the Dockerfile ready for use in Direktiv. The code takes a simple JSON structured data as input:
 
 Input:
- {
+```json
+{
    "username" : "Twitter"
  }
+```
  
 Output:
+```json
 [
    {
       "Hashtags" : null,
@@ -71,3 +74,4 @@ Output:
       "IsQuoted" : false
    }
 ]   
+```
