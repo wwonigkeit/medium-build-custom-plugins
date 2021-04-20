@@ -8,8 +8,8 @@ Contains the Go code and the Dockerfile ready for use in Direktiv. The code take
 Input:
 ```json
 {
-   "username" : "Twitter"
- }
+      "username" : "Twitter"
+}      
 ```
  
 Output:
