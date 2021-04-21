@@ -22,6 +22,6 @@ jobs:
           image: wwonigkeit/get-tweets
           tags: v1, latest
           registry: docker.io
-          directory: /medium-build-custom-plugins/get-tweets
+          directory: ./get-tweets/
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
