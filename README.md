@@ -3,7 +3,7 @@
 
 ## Get-Tweets
 
-Contains the Go code and the Dockerfile ready for use in Direktiv. The code takes a simple JSON structured data as input:
+Contains the Go code and the Dockerfile ready for use in Direktiv. The code takes a simple JSON structured data as input, which references the username of the Twitter account you want to get tweets for:
 
 Input:
 ```json
@@ -74,4 +74,24 @@ Output:
       "IsQuoted" : false
    }
 ]   
+```
+
+## Identify-Lang
+
+Contains the Go code and the Dockerfile ready for use in Direktiv. The code takes a simple JSON structured data as input:
+
+Input:
+```json
+{
+      "text" : "This is a test for english"
+}      
+```
+ 
+Output:
+```json
+{
+      "language" : "English",
+      "script" : "Latin",
+      "confidence" : 0.94687006838506
+}
 ```
