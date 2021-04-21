@@ -3,6 +3,8 @@
 
 ## Get-Tweets
 
+Article: https://medium.com/@wilhelm-wonigkeit/direktiv-custom-plugins-in-go-java-node-python-or-rust-or-anything-1b41a257af91
+
 Contains the Go code and the Dockerfile ready for use in Direktiv. The code takes a simple JSON structured data as input, which references the username of the Twitter account you want to get tweets for:
 
 Input:
