@@ -76,7 +76,8 @@ func TwitterHandler(w http.ResponseWriter, r *http.Request) {
 	var tweetsArr []twitterscraper.Result
 	for tweet := range tweets {
 		if tweet.Error != nil {
-			panic(tweet.Error)
+			err := fmt.Errorf("%s", tweet.Error)
+			respondWithErr(w, fmt.Sprintf(code, "get-tweet"), err.Error())
 		}
 
 		tweetsArr = append(tweetsArr, *tweet)
